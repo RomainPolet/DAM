@@ -32,7 +32,7 @@ def myfunc(rpm, s, theta, thetaC, deltathetaC) :
     Td = -thetaC*pi/180 #[rad]
     dT = deltathetaC*pi/180 #[rad]
 
-    Vc = pi*pi*D*2*R/(4)
+    Vc = pi*D*D*2*R/(4)
 
     def V(T):
         Tr = T #- (2 * pi)
